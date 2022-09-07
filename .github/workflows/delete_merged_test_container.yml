@@ -13,4 +13,4 @@ jobs:
     steps:
       - name: trigger 개발서버 젠킨스 아이템 실행 - 테스트 컨테이너 삭제
         run: |
-          curl -X POST http://spacecloud:110a3d7506ef0e1c881a7a136798bb8fea@49.236.144.88/job/delete_test_containers/buildWithParameters?SERVICE_NAME=dev-api&BRANCH_NAME=issue/SC-1384&token=72DyQySRcLfCjtyZ
+          curl -X POST http://spacecloud:110a3d7506ef0e1c881a7a136798bb8fea@49.236.144.88/job/delete_test_containers/buildWithParameters?BRANCH_NAME=dev-api-issue/SC-1384&token=72DyQySRcLfCjtyZ
